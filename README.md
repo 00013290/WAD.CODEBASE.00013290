@@ -108,5 +108,15 @@ If time allows, the following optional tasks will be completed:
 - Adding responsive design elements to enhance usability on different devices.
 
 
+## Database Schema
+
+Below is the visual representation of the database schema used in the project:
+
+![Database Schema](DatabaseSchema_00013290.drawio.png)
+
+This schema consists of two tables: **Customers** and **Products**, with a foreign key relationship between `Products.CustomerID` and `Customers.CustomerID`.
+
+
+
 
 
