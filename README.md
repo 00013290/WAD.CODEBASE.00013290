@@ -12,8 +12,8 @@ A comprehensive web application portfolio project for the Web Application module
 
 Before running this project, the following shoul be installed on the system:
 
-1. **Node.js** (v18) - [Download Node.js](https://nodejs.org/)
-2. **Angular CLI** (v13 or later) - Install using `npm install -g @angular/cli`
+1. **Node.js** (v14 or later) - [Download Node.js](https://nodejs.org/)
+2. **Angular CLI** (V18) - Install using `npm install -g @angular/cli`
 3. **ASP.Net Core SDK** (v6.0 or later) - [Download .NET SDK](https://dotnet.microsoft.com/download)
 4. **SQL Server** (or another compatible database system) - [Download SQL Server](https://www.microsoft.com/en-us/sql-server/)
 5. **Visual Studio Code** (or any IDE of your choice) - [Download VS Code](https://code.visualstudio.com/)
