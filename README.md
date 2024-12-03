@@ -48,7 +48,7 @@ Ensure that system has access to a browser (e.g., Chrome) to view the Single Pag
 - Features outside the scope of CRUD operations and API integration (e.g., advanced analytics or AI features).
 
 ### Justifications
-- **Must Have:**
+**Must Have:**
  - Entity Framework and the ASP.Net Core API are necessary for the backend 
    functionality.
  - It is necessary to exhibit appropriate database structure and relationships when 
@@ -59,16 +59,16 @@ Ensure that system has access to a browser (e.g., Chrome) to view the Single Pag
  - Swagger documentation is necessary in order to display and document the API.
  - Project naming conventions: To avoid plagiarism and guarantee correct arrangement.
    
-- **Should Have:**
+**Should Have:**
  - SPA using CSS framework that is aesthetically pleasing: improves user experience without sacrificing functionality.
  - Software design pattern explanation: crucial for showcasing project optimization, but less significant than key features.
  - README with instructions for setting up: Not as important as the primary functionality, but necessary for clarity.
    
--  **Could Have:**
+**Could Have:**
  - The feature "User authentication or authorization" is optional and not necessary for the course work.
  - Although it is not necessary, responsive SPA design improves user experience.
 
-- **Won't Have:**
+**Won't Have:**
  - "Advanced features (e.g., analytics)": The work makes no mention of or requirement for these.
 
 
