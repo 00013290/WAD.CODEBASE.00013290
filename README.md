@@ -71,5 +71,42 @@ Ensure that system has access to a browser (e.g., Chrome) to view the Single Pag
 **Won't Have:**
  - "Advanced features (e.g., analytics)": The work makes no mention of or requirement for these.
 
+## Development Timeline
+
+The GANTT chart below outlines the timeline and tasks required to complete this project within 48 hours, adhering to the coursework requirements. Tasks are structured based on dependencies, and optional enhancements are included if time permits.
+
+### GANTT Chart
+| **Task**                        | **Duration** | **Start Date/Time** | **End Date/Time** | **Dependencies**                         |
+|---------------------------------|--------------|----------------------|-------------------|------------------------------------------|
+| Set up project repository       | Done         | N/A                  | N/A               | None                                     |
+| Add README with prerequisites   | Done         | N/A                  | N/A               | None                                     |
+| MoSCoW prioritization and justifications | Done | N/A                  | N/A               | None                                     |
+| **Design database schema**      | 2 hours      | Day 1, 00:00 AM       | Day 1, 02:00 AM   | None                                     |
+| Create Data Access Layer (DAL)  | 2 hours      | Day 1, 11:00 AM      | Day 1, 1:00 PM    | Database schema                          |
+| Create migrations for tables    | 1 hour       | Day 1, 1:00 PM       | Day 1, 2:00 PM    | Data Access Layer                        |
+| Develop controllers for CRUD    | 4 hours      | Day 1, 2:00 PM       | Day 1, 6:00 PM    | Data Access Layer and migrations         |
+| Test CRUD operations with Postman | 2 hours    | Day 1, 6:00 PM       | Day 1, 8:00 PM    | CRUD controllers                         |
+| Integrate Swagger documentation | 1 hour       | Day 1, 8:00 PM       | Day 1, 9:00 PM    | CRUD controllers                         |
+| Set up Angular SPA              | 2 hours      | Day 1, 9:00 PM       | Day 1, 11:00 PM   | API development                          |
+| Create Angular components       | 4 hours      | Day 2, 7:00 AM       | Day 2, 11:00 AM   | Angular SPA setup                        |
+| Integrate API with SPA          | 4 hours      | Day 2, 11:00 AM      | Day 2, 3:00 PM    | Angular components and functional API    |
+| Test SPA and API integration    | 2 hours      | Day 2, 3:00 PM       | Day 2, 5:00 PM    | API integration                          |
+| Write README documentation      | 2 hours      | Day 2, 5:00 PM       | Day 2, 7:00 PM    | Completed implementation                 |
+| Record CRUD demo video          | 1 hour       | Day 2, 7:00 PM       | Day 2, 8:00 PM    | Completed SPA and API testing            |
+| Optional: Add CSS enhancements  | 2 hours      | Day 2, 8:00 PM       | Day 2, 10:00 PM   | Completed SPA                            |
+
+### Task Dependencies
+- **Database Schema**: Required before creating the Data Access Layer (DAL).
+- **Data Access Layer and Migrations**: Must be completed before developing controllers.
+- **Controllers**: Required for CRUD functionality and testing with Postman.
+- **Swagger Documentation**: Dependent on completed CRUD controllers.
+- **Angular SPA Components**: Require the API to be functional for integration.
+
+### Optional Enhancements
+If time allows, the following optional tasks will be completed:
+- CSS framework integration (e.g., Bootstrap) for better UI design.
+- Adding responsive design elements to enhance usability on different devices.
+
+
 
 
